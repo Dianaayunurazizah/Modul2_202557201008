@@ -4,7 +4,7 @@
  */
 package modul2_202557201008;
 
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 /**
  *
@@ -12,13 +12,14 @@ import javax.swing.JOptionPane;
  */
 public class Percobaan2Luaslingkaran {
     public static void main(String[] args) {
-        System.out.println("Percobaan Ke-2 Luas Lingkaran");
-        String input= JOptionPane.showInputDialog("Masukkan Diameter"); // untuk tampilkan pop up input diameter
-        double diameter = Double.parseDouble(input);
+        System.out.println("Percobaan Ke-2 Luas Lingkaran------diana");
+        double diameter;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan Diameter : ");
+        diameter=input.nextDouble();
         Percobaan2Luaslingkaran mt = new Percobaan2Luaslingkaran();
-        double luas = mt.luas_lingkaran(diameter);
-        JOptionPane.showMessageDialog(null,"Luas Lingkaran : "+luas,"Hasil Hitung",3); // untuk tampilkan pop up hasil dari luas lingkaran
-        System.out.println("LUAS LINGKARAN : "+mt.luas_lingkaran(14)); // untuk output di console
+        System.out.println("LUAS LINGKARAN : "+mt.luas_lingkaran(14)); 
+        
     }
     public double luas_lingkaran(double diameter){ // MENGGUNAKAN PUBLIC METHOD
             double jari2 = (diameter/2.0);

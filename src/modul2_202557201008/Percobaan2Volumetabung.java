@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package modul2_202557201008;
+import java.util.Scanner;
 
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -12,15 +12,15 @@ import javax.swing.JOptionPane;
  */
 public class Percobaan2Volumetabung {
     public static void main(String[] args) {
-        System.out.println("Percobaan Ke-2 Volume Tabung");
-        String input= JOptionPane.showInputDialog("Masukkan Diameter"); // untuk tampilkan pop up input diameter
-        double diameter = Double.parseDouble(input);
-        String input1= JOptionPane.showInputDialog("Masukkan Tinggi"); // untuk tampilkan pop up input tinggi
-        double tinggi = Double.parseDouble(input1);
+        System.out.println("Percobaan Ke-2 Volume Tabung------diana");
+        double diameter,tinggi;
+        Scanner input=new Scanner(System.in);
+        System.out.print("Masukkan Diagram : ");
+        diameter=input.nextDouble();
+        System.out.print("Masukkan Tinggi : ");
+        tinggi=input.nextDouble();
         Percobaan2Volumetabung mv = new Percobaan2Volumetabung();
-        double luas = mv.VolumeTabung(diameter,tinggi);
-        JOptionPane.showMessageDialog(null,"Volume Tabung : "+luas,"Hasil Hitung",3); // untuk tampilkan pop up hasil dari volume tabung
-        System.out.println("VOLUME TABUNG : "+mv.VolumeTabung(14,5)); // 
+        System.out.println("VOLUME TABUNG : "+mv.VolumeTabung(14,5)); 
     }
     public double VolumeTabung(double diameter,double tinggi){ // MENGGUNAKAN PUBLIC METHOD
             double jari2 = (diameter/2.0);

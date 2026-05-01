@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package modul2_202557201008;
+import java.util.Scanner;
 
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -12,13 +12,14 @@ import javax.swing.JOptionPane;
  */
 public class Percobaan2VolumeBola {
     public static void main(String[] args) {
-        System.out.println("Percobaan Ke-2 Volume Bola");
-        String input= JOptionPane.showInputDialog("Masukkan Diameter"); // untuk tampilkan pop up input diameter
-        double diameter = Double.parseDouble(input);
+        System.out.println("Percobaan Ke-2 Volume Bola--------diana");
+        double diameternya;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan diameternya : ");
+        diameternya=input.nextDouble();
         Percobaan2VolumeBola vn = new Percobaan2VolumeBola();
-        double luas = vn.VolumeBola(diameter);
-        JOptionPane.showMessageDialog(null,"Volume Kerucut : "+luas,"Hasil Hitung",3); // untuk tampilkan pop up hasil dari volume bola
-        System.out.println("VOLUME BOLA : "+vn.VolumeBola(14)); // 
+        System.out.println("VOLUME BOLA : "+vn.VolumeBola(14));
+        
     }
     public double VolumeBola(double diameter){ // MENGGUNAKAN PUBLIC METHOD
             double jari2 = (diameter/2.0);
