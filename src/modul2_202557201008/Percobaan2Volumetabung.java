@@ -20,7 +20,7 @@ public class Percobaan2Volumetabung {
         System.out.print("Masukkan Tinggi : ");
         tinggi=input.nextDouble();
         Percobaan2Volumetabung mv = new Percobaan2Volumetabung();
-        System.out.println("VOLUME TABUNG : "+mv.VolumeTabung(14,5)); 
+        System.out.println("VOLUME TABUNG : "+mv.VolumeTabung(diameter,tinggi)); 
     }
     public double VolumeTabung(double diameter,double tinggi){ // MENGGUNAKAN PUBLIC METHOD
             double jari2 = (diameter/2.0);

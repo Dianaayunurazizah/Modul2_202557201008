@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Acer
+ * @author Diana Ayu Nur Azizah
  */
 public class Percobaan2VolumeBola {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Percobaan2VolumeBola {
         System.out.print("Masukkan diameternya : ");
         diameternya=input.nextDouble();
         Percobaan2VolumeBola vn = new Percobaan2VolumeBola();
-        System.out.println("VOLUME BOLA : "+vn.VolumeBola(14));
+        System.out.println("VOLUME BOLA : "+vn.VolumeBola(diameternya)); //cara manggil output ini parameternya "diameternya"
         
     }
     public double VolumeBola(double diameter){ // MENGGUNAKAN PUBLIC METHOD

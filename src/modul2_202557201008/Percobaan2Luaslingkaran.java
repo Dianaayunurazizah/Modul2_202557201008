@@ -18,7 +18,7 @@ public class Percobaan2Luaslingkaran {
         System.out.print("Masukkan Diameter : ");
         diameter=input.nextDouble();
         Percobaan2Luaslingkaran mt = new Percobaan2Luaslingkaran();
-        System.out.println("LUAS LINGKARAN : "+mt.luas_lingkaran(14)); 
+        System.out.println("LUAS LINGKARAN : "+mt.luas_lingkaran(diameter)); 
         
     }
     public double luas_lingkaran(double diameter){ // MENGGUNAKAN PUBLIC METHOD

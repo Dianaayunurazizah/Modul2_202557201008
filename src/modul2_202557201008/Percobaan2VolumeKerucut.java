@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Acer
+ * @author Diana Ayu Nur Azizah
  */
 public class Percobaan2VolumeKerucut {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class Percobaan2VolumeKerucut {
         System.out.print("Masukkan tinggi : ");
         tinggi=input.nextDouble();
         Percobaan2VolumeKerucut ad = new Percobaan2VolumeKerucut();
-        System.out.println("VOLUME TABUNG : "+ad.VolumeKerucut(14,5));
+        System.out.println("VOLUME TABUNG : "+ad.VolumeKerucut(diameternya,tinggi));
     }
     public double VolumeKerucut(double diameter,double tinggi){ // MENGGUNAKAN PUBLIC METHOD
             double jari2 = (diameter/2.0);
