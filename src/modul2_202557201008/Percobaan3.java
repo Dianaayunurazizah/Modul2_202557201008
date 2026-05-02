@@ -12,15 +12,15 @@ import javax.swing.JOptionPane;
  */
 public class Percobaan3 {
     public static void main(String[] args) {
-    String satu=JOptionPane.showInputDialog("Masukkan Panjang : ");
+    String satu=JOptionPane.showInputDialog("Masukkan Panjang : "+"Detail Persegi Panjang",20);
     double panjang=Double.parseDouble(satu);
-    String dua=JOptionPane.showInputDialog("Masukkan Lebar : ");
+    String dua=JOptionPane.showInputDialog("Masukkan Lebar : "+"Detail Persegi Panjang",30);
     double lebar=Double.parseDouble(dua);
-    String tiga=JOptionPane.showInputDialog("Masukkan Alas : ");
+    String tiga=JOptionPane.showInputDialog("Masukkan Alas : "+"Detail Segitiga",20);
     double alas=Double.parseDouble(tiga);
-    String empat=JOptionPane.showInputDialog("Masukkan Tinggi : ");
+    String empat=JOptionPane.showInputDialog("Masukkan Tinggi : "+"Detail Segitiga",10);
     double tinggi=Double.parseDouble(empat);
-    String lima=JOptionPane.showInputDialog("Masukkan Jari-jari : ");
+    String lima=JOptionPane.showInputDialog("Masukkan Jari-jari : "+"Detail Lingkaran",10);
     double jari_jari=Double.parseDouble(lima);
     Percobaan3 nn= new Percobaan3();
     double luasPP = nn.luasPersegiPanjang(panjang,lebar);//parameter
