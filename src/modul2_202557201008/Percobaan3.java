@@ -20,12 +20,12 @@ public class Percobaan3 {
     double alas=Double.parseDouble(tiga);
     String empat=JOptionPane.showInputDialog("Masukkan Tinggi : ");
     double tinggi=Double.parseDouble(empat);
-    String lima=JOptionPane.showInputDialog("Masukkan Diameter : ");
-    double diameter=Double.parseDouble(lima);
+    String lima=JOptionPane.showInputDialog("Masukkan Jari-jari : ");
+    double jari_jari=Double.parseDouble(lima);
     Percobaan3 nn= new Percobaan3();
     double luasPP = nn.luasPersegiPanjang(panjang,lebar);//parameter
     double luasS = nn.luasSegitiga(alas,tinggi);//parameter
-    double luasL = nn.luasLingkaran(diameter);//parameter
+    double luasL = nn.luasLingkaran(jari_jari);//parameter
     JOptionPane.showMessageDialog(null,"Luas Persegi Panjang : "+luasPP,"Perhitungan",3);
     JOptionPane.showMessageDialog(null,"Luas Segitiga : "+luasS,"Perhitungan",3);
     JOptionPane.showMessageDialog(null,"Luas Lingkaran : "+luasL,"Perhitungan",3);
@@ -38,8 +38,7 @@ public class Percobaan3 {
         double luasS=1.0/2.0*alas*tinggi;
         return luasS;
     }
-    double luasLingkaran(double diameter){
-        double jari_jari=(diameter/2.0);
+    double luasLingkaran(double jari_jari){
         double luasL=Math.PI*Math.pow(jari_jari, 2);
         return luasL;
     }
