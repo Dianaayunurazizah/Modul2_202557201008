@@ -15,14 +15,14 @@ public class Percobaan2Volumetabung {
         System.out.println("Percobaan Ke-2 Volume Tabung------diana");
         double diameter,tinggi;
         Scanner input=new Scanner(System.in);
-        System.out.print("Masukkan Diagram : ");
+        System.out.print("Masukkan Diameter : ");
         diameter=input.nextDouble();
         System.out.print("Masukkan Tinggi : ");
         tinggi=input.nextDouble();
         Percobaan2Volumetabung mv = new Percobaan2Volumetabung();
         System.out.println("VOLUME TABUNG : "+mv.VolumeTabung(diameter,tinggi)); 
     }
-    public double VolumeTabung(double diameter,double tinggi){ // MENGGUNAKAN PUBLIC METHOD
+    public double VolumeTabung(double diameter,double tinggi){ // MENGGUNAKAN NON VOID METHOD
             double jari2 = (diameter/2.0);
             double luas= Math.PI* Math.pow(jari2,2)*tinggi;//math pi untuk phi. math pow untuk pangkat
             return luas;

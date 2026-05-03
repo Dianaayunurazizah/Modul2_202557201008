@@ -21,7 +21,7 @@ public class Percobaan2Luaslingkaran {
         System.out.println("LUAS LINGKARAN : "+mt.luas_lingkaran(diameter)); 
         
     }
-    public double luas_lingkaran(double diameter){ // MENGGUNAKAN PUBLIC METHOD
+    public double luas_lingkaran(double diameter){ // MENGGUNAKAN NON VOID METHOD
             double jari2 = (diameter/2.0);
             double luas= Math.PI* Math.pow(jari2,2);//math pi untuk phi. math pow untuk pangkat
             return luas;

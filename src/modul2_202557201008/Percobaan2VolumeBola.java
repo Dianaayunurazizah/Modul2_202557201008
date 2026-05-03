@@ -18,11 +18,11 @@ public class Percobaan2VolumeBola {
         System.out.print("Masukkan diameternya : ");
         diameternya=input.nextDouble();
         Percobaan2VolumeBola vn = new Percobaan2VolumeBola();
-        System.out.println("VOLUME BOLA : "+vn.VolumeBola(diameternya)); //cara manggil output ini parameternya "diameternya"
+        System.out.println("VOLUME BOLA : "+vn.VolumeBola(diameternya)); //cara manggil output ini tipe data diameternya"
         
     }
-    public double VolumeBola(double diameter){ // MENGGUNAKAN PUBLIC METHOD
-            double jari2 = (diameter/2.0);
+    public double VolumeBola(double diameternya){ // MENGGUNAKAN NON VOID METHOD
+            double jari2 = (diameternya/2.0);
             double luas= 4.0/3.0*Math.PI* Math.pow(jari2,3);//math pi untuk phi. math pow untuk pangkat
             return luas;
     }

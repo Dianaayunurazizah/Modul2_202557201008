@@ -26,9 +26,11 @@ public class Percobaan3 {
     double luasPP = nn.luasPersegiPanjang(panjang,lebar);//parameter
     double luasS = nn.luasSegitiga(alas,tinggi);//parameter
     double luasL = nn.luasLingkaran(jari_jari);//parameter
-    JOptionPane.showMessageDialog(null,"Luas Persegi Panjang : "+luasPP,"Perhitungan",3);
-    JOptionPane.showMessageDialog(null,"Luas Segitiga : "+luasS,"Perhitungan",3);
-    JOptionPane.showMessageDialog(null,"Luas Lingkaran : "+luasL,"Perhitungan",3);
+    String Hasil ="Hasil Perhitungan : "+"\n"
+            +"Luas Persegi Panjang : "+luasPP+"\n"
+            +"Luas Segitiga : "+luasS+"\n"
+            +"Luas Lingkaran : "+luasL;
+    JOptionPane.showMessageDialog(null,Hasil,"Perhitungan",1);
     }
     double luasPersegiPanjang(double panjang,double lebar){
         double luasPP=panjang*lebar;

@@ -21,10 +21,10 @@ public class Percobaan2VolumeKerucut {
         System.out.print("Masukkan tinggi : ");
         tinggi=input.nextDouble();
         Percobaan2VolumeKerucut ad = new Percobaan2VolumeKerucut();
-        System.out.println("VOLUME TABUNG : "+ad.VolumeKerucut(diameternya,tinggi));
+        System.out.println("VOLUME KERUCUT : "+ad.VolumeKerucut(diameternya,tinggi));
     }
-    public double VolumeKerucut(double diameter,double tinggi){ // MENGGUNAKAN PUBLIC METHOD
-            double jari2 = (diameter/2.0);
+    public double VolumeKerucut(double diameternya,double tinggi){ // MENGGUNAKAN NON VOID METHOD
+            double jari2 = (diameternya/2.0);
             double luas= 1.0/3.0*Math.PI* Math.pow(jari2,2)*tinggi;//math pi untuk phi. math pow untuk pangkat
             return luas;
     }
