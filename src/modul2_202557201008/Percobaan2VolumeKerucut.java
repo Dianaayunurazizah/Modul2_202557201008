@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Percobaan2VolumeKerucut {
     public static void main(String[] args) {
-        System.out.println("Percobaan Ke-2 Volume Kerucut-------diana");
+        System.out.println("Percobaan Ke-2 Volume Kerucut-------");
         double diameternya,tinggi;
         Scanner input=new Scanner(System.in);
         System.out.print("Masukkan diameter : ");

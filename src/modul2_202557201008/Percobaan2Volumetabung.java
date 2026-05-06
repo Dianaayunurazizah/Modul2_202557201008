@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Percobaan2Volumetabung {
     public static void main(String[] args) {
-        System.out.println("Percobaan Ke-2 Volume Tabung------diana");
+        System.out.println("Percobaan Ke-2 Volume Tabung------");
         double diameter,tinggi;
         Scanner input=new Scanner(System.in);
         System.out.print("Masukkan Diameter : ");

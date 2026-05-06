@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Percobaan2Luaslingkaran {
     public static void main(String[] args) {
-        System.out.println("Percobaan Ke-2 Luas Lingkaran------diana");
+        System.out.println("Percobaan Ke-2 Luas Lingkaran------");
         double diameter;
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan Diameter : ");
